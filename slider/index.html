@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+	<div class="banner">
+		<ul class="lunbo">
+			<li><a href="#"><img src="images/a.jpg" alt="" class="big"></a></li>
+			<li><a href="#"><img src="images/b.jpg" alt="" class="big"></a></li>
+			<li><a href="#"><img src="images/c.jpg" alt="" class="big"></a></li>
+		</ul>
+		<ul class="tips">
+			<li class="active"></li>
+			<li></li>
+			<li></li>
+		</ul>
+		<span class="same prev"><</span>
+		<span class="same next">></span>
+	</div>
+</body>
+<script type="text/javascript" src="js/jquery-1.8.0.js"></script>
+<!-- <script type="text/javascript" src="js/jquery.slider.explain.js"></script> -->
+<script type="text/javascript" src="js/jquery.slider.min.js"></script>
+<script type="text/javascript">
+	$(".banner").slider({
+		stopTime:3000,
+		isClick:false,
+		effect:"fade"
+
+	})
+
+</script>
+</html>

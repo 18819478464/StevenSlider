@@ -1,0 +1,14 @@
+*{margin: 0;padding: 0;}
+body,html{width: 100%;}
+ul{list-style: none;}
+.banner{width: 100%;height: 540px;position: relative;overflow: hidden;}
+.lunbo{width: 100%;height: 100%;position: absolute;left: 0;top: 0;}
+.lunbo li{width: 100%;height: 100%;float: left;}
+.lunbo li a{width: 100%;height: 100%;display: block;}
+.lunbo li img{width: 100%;height: 100%;} 
+.tips{width: 100%;height: 20px;position: absolute;bottom: 10px;left: 0;z-index:2;text-align: center;}
+.tips li{width: 10px;height: 10px;background:#666;border-radius: 100%;display: inline-block;cursor:pointer;}
+.tips li.active{background: #fdfdfd;}
+.same{width: 50px;height: 50px;display: block;position: absolute;background: rgba(0,0,0,0.6);cursor:pointer;z-index: 2;font-size: 30px;color: #fff;line-height: 50px;text-align: center;font-weight: bold;margin-top: -25px;}
+.prev{left: 10px;top: 50%;}
+.next{right: 10px;top: 50%;}
